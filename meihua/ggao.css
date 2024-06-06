@@ -1,0 +1,117 @@
+/*木专用图文样式*/
+.wiiuii-graphic-cover-special{margin-top:-50px;position:relative;z-index:1;margin-bottom: 30px;}
+.wiiuii-graphic-cover-special .wiiuii-graphic-cover-special-item{box-shadow:0 4px 4px rgba(0,0,0,.15)}
+textarea#comment {background-color:transparent;background:linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),url(https://img07.mifile.cn/v1/MI_542ED8B1722DC/7c827172c9f77fecef28889f048282d1.png) right 10px bottom 10px no-repeat;-moz-transition:ease-in-out 0.45s;-webkit-transition:ease-in-out 0.45s;-o-transition:ease-in-out 0.45s;-ms-transition:ease-in-out 0.45s;transition:ease-in-out 0.45s;}
+textarea#comment:focus {background-position-y:789px;-moz-transition:ease-in-out 0.45s;-webkit-transition:ease-in-out 0.45s;-o-transition:ease-in-out 0.45s;-ms-transition:ease-in-out 0.45s;transition:ease-in-out 0.45s;}
+.tp-ad-text1 {width:100%;padding-top:6px;box-sizing:border-box;overflow: hidden;background: rgba(255,255,255,.2);}
+.tp-ad-text1 a {color:#7fba00;font-size:14px;line-height:38px;text-align:center;border:1px dashed rgba(0,0,0,.2);padding:0 3px;box-sizing:border-box;float:left;width:11.5%;height:38px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:0 0.5% 6px;text-decoration:none;transition:all .6s;}
+.tp-ad-text1 a:hover {font-weight: bold;color:#fff!important;background:#7fba00;transition: all .6s;}
+.tp-ad-text1 a:nth-child(2n) {color:#f74e1e;}
+.tp-ad-text1 a:nth-child(2n):hover {background:#f74e1e;border-color: #f74e1e;}
+.tp-ad-text1 a:nth-child(3n) {color:#00a4ef;}
+.tp-ad-text1 a:nth-child(3n):hover {background:#00a4ef;border-color: #00a4ef;}
+.tp-ad-text1 a:nth-child(4n) {color:#0517c2;}
+.tp-ad-text1 a:nth-child(4n):hover {background:#0517c2;border-color: #0517c2;}
+.tp-ad-text1 a:nth-child(5n) {color:#601165;}
+.tp-ad-text1 a:nth-child(5n):hover {background:#601165;border-color: #601165;}
+.tp-ad-text1 a:nth-child(6n) {color:#ffb900;}
+.tp-ad-text1 a:nth-child(6n):hover {background:#ffb900;border-color: #ffb900;}
+.tp-ad-text1 a:nth-child(7n) {color:#0fc317;}
+.tp-ad-text1 a:nth-child(7n):hover {background:#0fc317;border-color: #0fc317;}
+.tp-ad-text1 a:nth-child(8n) {color:#601165;}
+.tp-ad-text1 a:nth-child(8n):hover {background:#601165;border-color: #601165;}
+.tp-ad-text1 a:nth-child(9n) {color:#fba78f;}
+.tp-ad-text1 a:nth-child(9n):hover {background:#fba78f;border-color: #fba78f;}
+.tp-ad-text1 a:nth-child(10n) {color:#13cf8f;}
+.tp-ad-text1 a:nth-child(10n):hover {background:#13cf8f;border-color: #13cf8f;}
+.tp-ad-text1 a:nth-child(11n) {color:#f74e1e;}
+.tp-ad-text1 a:nth-child(11n):hover {background:#f74e1e;border-color: #f74e1e;}
+.tp-ad-text1 a:nth-child(12n) {color:#ffb900;}
+.tp-ad-text1 a:nth-child(12n):hover {background:#ffb900;border-color: #ffb900;}
+.tp-ad-text1 a:nth-child(13n) {color:#fba78f;}
+.tp-ad-text1 a:nth-child(13n):hover {background:#fba78f;border-color: #fba78f;}
+.tp-ad-text1 a:nth-child(14n) {color:#f74e1e;}
+.tp-ad-text1 a:nth-child(14n):hover {background:#f74e1e;border-color: #f74e1e;}
+.tp-ad-text1 a:nth-child(15n) {color:#7fba00;}
+.tp-ad-text1 a:nth-child(15n):hover {background:#7fba00;border-color: #7fba00;}
+.tp-ad-text1 a:nth-child(16n) {color:#0fc317;}
+.tp-ad-text1 a:nth-child(16n):hover {background:#0fc317;border-color: #0fc317;}
+.tp-ad-text1 a:nth-child(17n) {color:#0517c2;}
+.tp-ad-text1 a:nth-child(17n):hover {background:#0517c2;border-color: #0517c2;}
+.tp-ad-text1 a:nth-child(18n) {color:#13cf8f;}
+.tp-ad-text1 a:nth-child(18n):hover {background:#13cf8f;border-color: #13cf8f;}
+.tp-ad-text1 a:nth-child(19n) {color:#ffb900;}
+.tp-ad-text1 a:nth-child(19n):hover {background:#ffb900;border-color: #ffb900;}
+.tp-ad-text1 a:nth-child(20n) {color:#f74e1e;}
+.tp-ad-text1 a:nth-child(20n):hover {background:#f74e1e;border-color: #f74e1e;}
+@media screen and (max-width: 1198px){
+.tp-ad-text1 a{
+width: 24%;
+}
+}
+@media screen and (max-width: 767px){
+.tp-ad-text1 a{
+width: 48%;
+font-size: 12px;
+line-height: 28px;
+padding: 0 1%;
+margin:0 0.5% 3px;
+}
+}
+body {background: -webkit-linear-gradient(0deg,#ffdee9c4 0%,#b5fffc8f 100%); background-color: #FFDEE9;}
+.display-name{
+background-image: -webkit-linear-gradient(90deg, #07c160, #fb6bea 25%, #3aedff 50%, #fb6bea 75%, #28d079);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-size: 100% 600%;
+animation: wzw 10s linear infinite;
+
+}
+@keyframes wzw {
+0% {
+background-position: 0 0;
+}
+100% {
+background-position: 0 -300%;
+}
+}
+/*CSS 代码网站底部按钮美化 */
+:root{--theme-color:#f04494;--focus-shadow-color:rgba(240,68,148,.4);--mian-max-width:1200px;}.github-badge {
+    display: inline-block;
+    border-radius: 4px;
+    text-shadow: none;
+    font-size: 12px;
+    color: #fff;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+.badge-subject {
+    display: inline-block;
+    background-color: #4d4d4d;
+    padding: 4px 4px 4px 6px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.github-badge .bg-blue {
+    background-color: #007ec6;
+}
+.github-badge .bg-brightgreen {
+    background-color: #4dc820;
+}
+.github-badge .bg-blueviolet {
+    background-color: #8833d7;
+}
+.github-badge .badge-value {
+    display: inline-block;
+    padding: 4px 6px 4px 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.github-badge .bg-orange {
+    background-color: orange;
+}
+/*CSS 代码网站底部按钮美化结束*/.enlighter-default .enlighter{max-height:500px;overflow-y:auto !important;}.posts-item .item-heading>a {font-weight: bold;color: unset;}@media (max-width:640px) {
+		.meta-right .meta-view{
+			display: unset !important;
+		}
+	}
