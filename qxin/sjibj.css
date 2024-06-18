@@ -1,0 +1,12 @@
+/*移动端侧边栏背景*/
+@media (max-width: 767px){
+.mobile-navbar.show,.mobile-navbar.left{
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   cursor: pointer;
+ background-image:linear-gradient(rgba(255, 255,255,0),rgba(255,255,255, 0.3)),url(https://www.uzhix.com/wp-content/themes/zibllsucai/img/zhutishezhi/Global-Features/Custom-Code/ceblbj.png);}
+ .mobile-nav-widget .box-body {
+   background: var(--muted-border-color) !important;}
+}
+/*移动端侧边栏背景*/

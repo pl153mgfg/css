@@ -1,0 +1,166 @@
+/*文章自定义角标css*/
+.posts-item.card .item-thumbnail {
+  background:#c4cffa26;
+  width:100%;
+  padding-bottom:var(--posts-card-scale);
+}
+a.item-category {
+  position:absolute;
+  left:10px;
+  top:10px;
+  padding:5px 6px;
+  font-size:1rem;
+  line-height:1;
+  color:#fff;
+  background:var(--theme-color);
+  border-radius:6px;
+}
+a.item-category-app {
+  position:absolute;
+  height:24px;
+  line-height:24px;
+  width:100%;
+  text-align:center;
+  bottom:0;
+  left:0;
+  background:radial-gradient(circle,#3783ff,#3783ffbf);
+  color:#fff;
+  font-size:12px;
+  border-radius:0 0 10px 10px;
+}
+a.item-category-app-b {
+  position:absolute;
+  height:24px;
+  line-height:24px;
+  width:100%;
+  text-align:center;
+  bottom:0;
+  left:0;
+  background:radial-gradient(circle,#ff5631,#ff5631ba);
+  color:#fff;
+  font-size:12px;
+  border-radius:0 0 10px 10px;
+}
+a.item-category-app-c {
+  position:absolute;
+  height:24px;
+  line-height:24px;
+  width:100%;
+  text-align:center;
+  bottom:0;
+  left:0;
+  background:radial-gradient(circle,#464242,#464242ad);
+  color:#fff;
+  font-size:12px;
+  border-radius:0 0 10px 10px;
+}
+span.bottom-l {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.n-collect-item-bottom {
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:25px;
+  background:var(--theme-color);
+  border-radius:0 0 var(--main-radius);
+  font-size:13px;
+  color:#fff;
+  text-shadow:0 2px 2px rgba(0,0,0,.16);
+  display:flex;
+  -webkit-box-align:center;
+  align-items:center;
+  -webkit-box-pack:justify;
+  justify-content:space-between;
+  padding:0 18px;
+  z-index:5;
+  justify-content:center;
+}
+.jiaobiao2 {
+  position:absolute;
+  top:10px;
+  right:-50px;
+  z-index:1;
+  width:140px;
+  height:20px;
+  background:var(--theme-color);
+  color:#fff;
+  line-height:20px;
+  transform:rotate(45deg);
+  text-align:center;
+  font-size:12px;
+  left:auto;
+  border-radius:0 50px 50px 0;
+}
+
+2.将下面代码添加进子比主题下的func.php文件内。
+将下面代码添加进子比主题下的func.php文件内,若没有则创建一个,如果是新建func.php文件夹记得复制<?php 去掉前面两竖线
+
+CSF::createMetabox('Mario', array(
+    'title'     => '附加选项',
+    'post_type' => array('post', 'plate', 'forum_post'),
+    'context'   => 'advanced',
+    'data_type' => 'unserialize',
+));
+
+CSF::createSection('Mario', array(
+    'fields' => array(
+        array(
+            'title'   => __('开启文章角标'),
+            'id'      => 'Mario_edit',
+            'type'    => 'switcher',
+            'label'   => '角标',
+            'desc'   => '填哪个显示哪个，不想要的留空就行',
+            'default' => false
+        ),
+        array(
+            'dependency' => array('Mario_edit', '!=', ''),
+            'title'   => __('左上角标内容'),
+            'id'      => 'right_text',
+            'type'    => 'text',
+            'default' => '支持M1/M2',
+        ),
+        array(
+            'dependency' => array('Mario_edit', '!=', ''),
+            'title'   => __('背景颜色'),
+            'id'      => 'right_color',
+            'type'    => 'color',
+            'default' => '#121212',
+            'class'    =>'compact',
+        ),
+        array(
+            'dependency' => array('Mario_edit', '!=', ''),
+            'title'   => __('右上角标内容'),
+            'id'      => 'left_text',
+            'type'    => 'text',
+            'default' => '实测',
+        ),
+        array(
+            'dependency' => array('Mario_edit', '!=', ''),
+            'title'   => __('背景颜色'),
+            'id'      => 'left_color',
+            'type'    => 'color',
+            'default' => '#121212',
+            'class'    =>'compact',
+        ),
+        array(
+            'dependency' => array('Mario_edit', '!=', ''),
+            'title'   => __('封面底部内容'),
+            'id'      => 'bottom_text',
+            'type'    => 'text',
+            'default' => '支持Intel&M1&M2运行',
+        ),
+        array(
+            'dependency' => array('Mario_edit', '!=', ''),
+            'title'   => __('背景颜色'),
+            'id'      => 'bottom_color',
+            'type'    => 'color',
+            'default' => '#121212',
+            'class'    =>'compact',
+        ),
+
+    ),
+));

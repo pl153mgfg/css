@@ -1,0 +1,36 @@
+/*文章实测标签文字版*/
+.DearLicy_prefix{
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 4px;
+    margin-right: 3px;
+    height: 19px;
+    font-size: 12px;
+    top: -3px;
+    clip-path: polygon(7% 0, 99% 0, 93% 100%, 0 100%);
+}
+.DearLicy_prefix:after, .DearLicy_prefix:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    left: -100%;
+    top: -5px;
+    width: 15px;
+    height: 145%;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    animation: sweepTitle 3s ease-in-out infinite;
+    transform: rotate(28deg);
+}
+@keyframes sweepTitle {
+    0% {
+        left: -100%
+    }
+
+    100% {
+        left: 100%
+    }
+}
+/*文章实测标签文字版*/

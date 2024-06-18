@@ -1,0 +1,26 @@
+/*新文章发布图标样式*/
+.posts-item{position: relative !important;}
+.wiiuii-new-icon{position: absolute;height: 35px;right: 0;top: 0;}
+.wiiuii-new-icon img{-webkit-user-drag: none;}
+
+
+
+
+
+.posts-item badge.img-badge.left.jb-red {
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    z-index: 1;
+    width: 140px;
+    height: 20px;
+    background: var(/wp-content/themes/zibll/pic/zhi.png);
+    color: #fff;
+    line-height: 20px;
+    transform: rotate(45deg);
+    text-align: center;
+    font-size: 12px;
+    left: auto;
+    border-radius: 0 50px 50px 0;
+}
+

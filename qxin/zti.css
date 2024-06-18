@@ -1,0 +1,19 @@
+/*字体*/
+
+/*@font-face{
+
+font-family:"font";
+
+src:url(https://www.xyi66.cn/zt/9.ttf);
+
+font-display: swap;
+
+}
+
+*{font-family:"font"}
+
+/*结束*/
+
+
+@font-face { font-family: 'HarmonyOS Sans SC'; src: url('/zt/HarmonyOS_Sans_SC_Regular.woff2')format('woff2'); //修改字体文件地址 font-weight: normal; font-style: normal; font-display: swap; } body { font-family: 'HarmonyOS Sans SC', sans-serif; }
+

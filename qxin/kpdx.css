@@ -1,0 +1,57 @@
+/*卡片列表动效*/
+.posts-item:not(article):hover {
+	opacity: 1;
+	z-index: 99;
+	border-radius: 20px;
+	transform: translateY(0px);
+	box-shadow: 0 2px 2px rgba(0, 0, 255, 0.2);
+	animation: index-link-active 1s cubic-bezier(0.315, 0.605, 0.375, 0.925) forwards;
+}
+
+@keyframes index-link-active {
+	0% {
+		transform: perspective(2000px) rotateX(0) rotateY(0) translateZ(0);
+	}
+	16% {
+		transform: perspective(2000px) rotateX(10deg) rotateY(5deg) translateZ(32px);
+	}
+	100% {
+		transform: perspective(2000px) rotateX(0) rotateY(0) translateZ(65px);
+	}
+}
+/*卡片列表动效*/
+/*卡片列表图片动效*/
+.card:hover .item-thumbnail a img {
+    -webkit-animation: jumps-data-v-6bdef187 1.2s ease 1;
+    animation: jumps-data-v-6bdef187 1.2s ease 1;
+}
+@keyframes jumps-data-v-6bdef187 {
+    0% {
+        transform: translate(0)
+    }
+    10% {
+         transform: translateY(5px) scaleX(1.2) scaleY(.8); 
+    }
+    30% {
+        transform: translateY(-13px) scaleX(1) scaleY(1) rotate(5deg)
+    }
+    50% {
+        transform: translateY(0) scale(1) rotate(0)
+    }
+    55% {
+        transform: translateY(0) scaleX(1.1) scaleY(.9) rotate(0)
+    }
+    70% {
+        transform: translateY(-4px) scaleX(1) scaleY(1) rotate(-2deg)
+    }
+    80% {
+        transform: translateY(0) scaleX(1) scaleY(1) rotate(0)
+    }
+    85% {
+        transform: translateY(0) scaleX(1.05) scaleY(.95) rotate(0)
+    }
+    to {
+        transform: translateY(0) scaleX(1) scaleY(1)
+    }
+}
+/*卡片列表图片动效*/
