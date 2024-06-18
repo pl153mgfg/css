@@ -1,0 +1,6 @@
+/*透明代码*/
+.posts-item:not(.card) ,.author-header .avatar-img ,.full-widget-sm ,.header .sub-menu ,.modal-content ,.form-control ,.no_webshot.main-bg.theme-box.box-body.radius8.main-shadow ,.article ,.dropdown-menu ,.btn-score ,.float-right.round .float-btn ,.forum-posts.alone ,.zib-widget ,.posts-mini-lists ,.posts-item.card.style3 {
+    backdrop-filter: blur(3px) !important;
+    background: #fff0 !important;
+}
+/*透明代码*/
