@@ -1,0 +1,194 @@
+/*
+ * 热门文章排行
+
+ */
+@media screen and (max-width:768px){
+    #ranking1{display:none;}
+    #ranking2{display:none;}
+    #ranking3{display:none;}
+}
+
+.list.clearfix {
+    display: flex;
+    justify-content: center;
+}
+
+.ranking-item {
+  position: relative;
+  width: 460px;
+}
+
+a.top-icon.js-rank-bottom1 {
+  display: block;
+  width: 129px;
+  height: 43px;
+  line-height: 32px;
+  position: absolute;
+  left: 167px;
+  top: -7px;
+  background: url(https://img.picui.cn/free/2024/06/20/6673a97aca9a0.png) no-repeat center/100%;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+a.top-icon.js-rank-bottom2 {
+  display: block;
+  width: 129px;
+  height: 43px;
+  line-height: 32px;
+  position: absolute;
+  left: 167px;
+  top: -7px;
+  background: url(https://img.picui.cn/free/2024/06/20/6673a97b28c8e.png) no-repeat center/100%;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+a.top-icon.js-rank-bottom3 {
+  display: block;
+  width: 129px;
+  height: 43px;
+  line-height: 32px;
+  position: absolute;
+  left: 167px;
+  top: -7px;
+  background: url(https://img.picui.cn/free/2024/06/20/6673a97c08668.png) no-repeat center/100%;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+.class-box {
+  margin-top: 45px;
+}
+
+a.class-item.js-rank {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+img.class-pic {
+  width: 115px;
+  border-radius: 8px;
+  margin-right: 10px;
+  height:80px;
+}
+
+.class-info {
+  width: 250px;
+  font-size: 14px;
+}
+
+.name {
+  color: var(--key-color);
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  height: 40px;
+}
+
+.price {
+  color: #f01414;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.study-num {
+  color: #9199a1;
+  font-weight: 400;
+}
+
+.num-icon.num-icon1 {
+  width: 19px;
+  height: 22px;
+  background: url(https://img.picui.cn/free/2024/06/20/6673a97cc1afd.png) no-repeat center/100%;
+  margin: 0 12px 0 15px;
+}
+
+.num-icon.num-icon2 {
+  background: url(https://img.picui.cn/free/2024/06/20/6673a97d5ec58.png) no-repeat center/100%;
+  margin: 0 12px 0 15px;
+  width: 19px;
+  height: 22px;
+}
+
+.num-icon.num-icon3 {
+  background: url(https://img.picui.cn/free/2024/06/20/6673ab2740698.png) no-repeat center/100%;
+  margin: 0 12px 0 15px;
+  width: 19px;
+  height: 22px;
+}
+
+.num-icon.num-icon4 {
+  background: url(https://img.picui.cn/free/2024/06/20/6673ab3f5763a.png) no-repeat center/100%;
+  margin: 0 12px 0 15px;
+  width: 19px;
+  height: 22px;
+}
+
+.num-icon.num-icon5 {
+  background: url(https://img.picui.cn/free/2024/06/20/6673ab509e7c5.png) no-repeat center/100%;
+  margin: 0 12px 0 15px;
+  width: 19px;
+  height: 22px;
+}
+
+.num-icon.num-icon6 {
+  background: url(https://img.picui.cn/free/2024/06/20/6673ab65e2adb.png) no-repeat center/100%;
+  margin: 0 12px 0 15px;
+  width: 19px;
+  height: 22px;
+}
+
+.num-icon.num-icon7 {
+  background: url(/wp-content/themes/zibll/pic/top7.png.png) no-repeat center/100%;
+  margin: 0 12px 0 15px;
+  width: 19px;
+  height: 22px;
+}
+
+.num-icon.num-icon8 {
+  background: url(/wp-content/themes/zibll/pic/top8.png.png) no-repeat center/100%;
+  margin: 0 12px 0 15px;
+  width: 19px;
+  height: 22px;
+}
+
+.num-icon.num-icon9 {
+  background: url(/wp-content/themes/zibll/pic/top9.png) no-repeat center/100%;
+  margin: 0 12px 0 15px;
+  width: 19px;
+  height: 22px;
+}
+
+a.bottom-link.js-rank-bottom {
+  width: 120px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 12px;
+  color: #fff;
+  line-height: 12px;
+  font-weight: 500;
+  /*background-image: linear-gradient(270deg,#ff4f39 0,#fd6400 100%);*/
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1400px) {
+    .ranking-item {
+        display: none;
+    }
+}
